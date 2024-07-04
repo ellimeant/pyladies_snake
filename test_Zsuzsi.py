@@ -12,3 +12,11 @@ for row in grid:
 a = [[".", ".", "."], [".", ".", "."], [".", ".", "."]]
 for dot in a:
     print(*dot)
+
+b = [["c", "a", "r"], ["d", "o", "g"], ["p", "e", "t"]]
+for dot in b:
+    print(*dot)
+    
+first_element_of_second_list = b[1][0]
+
+print(first_element_of_second_list)
