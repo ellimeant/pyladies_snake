@@ -45,3 +45,30 @@ https://pyladies.at/2024/pyladies-en-vienna-2024-spring/beginners-en/list/
 Ich
 12:49
 first_element_of_second_list = list_of_lists[1][0]
+
+
+Ich
+14:04
+first_element_of_second_list = list_of_lists[1][0]
+Ich
+14:48
+for row in multiplication_tab:
+    for number in row:
+        print(number, end = '')
+    print()
+Ich
+14:51
+end = " "
+Ich
+14:55
+print(grid, sep='\n')
+Ich
+14:57
+strValue = '\n'.join(listOfStrs)
+print(strValue)
+gridnew = '\n'.join(grid)
+print(gridnew)
+Ich
+15:03
+gridnew = '\n'.join(map(str, a))
+https://thispointer.com/print-list-elements-on-separate-lines-in-python/
