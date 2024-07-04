@@ -8,4 +8,5 @@ for row in grid:
 
 # search for a specific element. First index is the nth-row, second is the index on the row, i.e. "column"
 first_element= grid[0][0]
-print(first_element)
+print(first_element, "first element")
+
