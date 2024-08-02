@@ -37,6 +37,15 @@ for row in grid:
 # then this position is meant to be "x" and not "." anymore. Question is how to define position == X, and how to tell the grid about this position.
 # needs to take the coordinates of that postion as an argument to replace "." with "x".
 
+#third thought: "replace" is actually to "change"! And this works!!  the very first element (index = 0) is now "X". Yay!
+grid[0] = "x"
+print(grid)
+#it works to some extend. it does not work to replace any position. but this thought should be explored further.
+
+grid[2:-1] = ["x","o"]
+print(grid)
+#works too, but clearly this way gets much shorter. We only access the grid part, not the "row" variable parts here
+
 #first thoughts:
 x_list = [0][0] #position(s) where the x should be
 if a in x_list: #a represents the coordinates - this does not seem to be valid to use
