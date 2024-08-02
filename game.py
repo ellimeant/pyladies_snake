@@ -6,7 +6,6 @@ for row in grid:
     print(*row) # print the grid, the * puts each row (=list) on an individual line
 
 
-# search for a specific element. First index is the nth-row, second is the index on the row, i.e. "column"
+# testing: search for a specific element. First index is the nth-row, second is the index on the row, i.e. "column"
 first_element= grid[0][0]
 print(first_element, "first element")
-
