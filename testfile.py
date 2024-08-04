@@ -17,6 +17,7 @@ def create_tab(size=11):
 
 multiplication_tab = create_tab()
 
+
 #print(multiplication_tab[2]) # two times three
 #print(multiplication_tab[5]) # five times two
 #print(multiplication_tab[8]) # eight times seven
@@ -44,7 +45,7 @@ print(grid)
 
 grid[2:-1] = ["x","o"]
 print(grid)
-#works too, but clearly this way gets much shorter. We only access the grid part, not the "row" variable parts here
+#works too, but clearly this way the output gets much shorter. We only access the grid part, not the "row" variable parts here
 
 #first thoughts:
 x_list = [0][0] #position(s) where the x should be
